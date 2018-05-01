@@ -39,7 +39,6 @@ export class View implements IView{
           list('todo','What you want to do?', [
             'Add User',
             'Get Users',
-            'Add Home',
             'Exit'
           ])
         ])
