@@ -4,7 +4,6 @@ var Model = /** @class */ (function () {
     function Model(bus) {
         this.bus = bus;
         this.users = [];
-        console.log('Creating Model PRE BUS');
         this._bus = bus;
     }
     Model.prototype.saveUser = function (user) {

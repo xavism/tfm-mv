@@ -14,9 +14,7 @@ var typescript_events_1 = require("typescript.events");
 var EventBus = /** @class */ (function (_super) {
     __extends(EventBus, _super);
     function EventBus() {
-        var _this = _super.call(this) || this;
-        console.log('Bus created');
-        return _this;
+        return _super.call(this) || this;
     }
     EventBus.Instance = function () {
         if (this.eventBus == null) {

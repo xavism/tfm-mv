@@ -4,7 +4,6 @@ var typed_prompts_1 = require("typed-prompts");
 var View = /** @class */ (function () {
     function View(bus) {
         this.bus = bus;
-        console.log('Creating View PRE BUS');
         this._bus = bus;
     }
     View.prototype.WriteUser = function (user) {
@@ -25,7 +24,6 @@ var View = /** @class */ (function () {
             typed_prompts_1.list('todo', 'What you want to do?', [
                 'Add User',
                 'Get Users',
-                'Add Home',
                 'Exit'
             ])
         ])
