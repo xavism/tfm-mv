@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+		"allowUnusedLabels": true,
+		"charset": "utf-8",
+		"experimentalDecorators": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"noFallthroughCasesInSwitch": false,
+		"noImplicitReturns": true,
+		"outDir": "/built",
+		"pretty": false,
+		"removeComments": true,
+		"rootDir": "./",
+		"stripInternal": true,
+		"target": "es6",
+        "types" : [ "node" ]
+    }
+}

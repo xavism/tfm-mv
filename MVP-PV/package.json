@@ -1,0 +1,25 @@
+{
+  "name": "mvp-pv",
+  "version": "1.0.0",
+  "description": "MPV-PV Application version",
+  "main": "view.js",
+  "scripts": {
+    "start": "tsc view.ts & node view.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xavism/TFM.git"
+  },
+  "author": "Xavi Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xavism/TFM/issues"
+  },
+  "homepage": "https://github.com/xavism/TFM#readme",
+  "dependencies": {
+    "typed-prompts": "^1.5.0",
+    "typeorm": "^0.2.4",
+    "typescript": "^2.8.3",
+    "typescript.events": "^7.9.0"
+  }
+}

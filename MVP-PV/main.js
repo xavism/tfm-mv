@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var view_1 = require("./View/view");
+var model_1 = require("./Model/model");
+var presenter_1 = require("./Presenter/presenter");
+var EventBus_1 = require("./Xcutting/EventBus");
+var bus = EventBus_1.EventBus.Instance();
+var view = new view_1.View(bus);
+var model = new model_1.Model(bus);
+var presenter = new presenter_1.Presenter(view, model, bus);
+view.Main();
